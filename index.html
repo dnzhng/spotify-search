@@ -1,0 +1,60 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Spotify Search</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.1/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+    <!--[if lt IE 8]>
+              <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+          <![endif]-->
+
+    <nav class="nav landing">
+      <div class="container">
+        <div class="nav-center">
+          <span class="icon is-large logo">
+            <i class="fa fa-spotify"></i>
+          </span>
+          <p class="control has-addons search-bar">
+            <input class="input search-input" type="text" placeholder="Search Spotify">
+            <span class="select search-select">
+              <select>
+                <option value="artist">Artist</option>
+                <option value="album">Albums</option>
+                <option value="playlist">Playlist</option>
+              </select>
+            </span>
+            <a class="button is-info search-button">
+              <span class="icon">
+                <i class="fa fa-search"></i>
+              </span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </nav>
+    <div id="content" class="">
+    </div>
+    <div class="paginator">
+    </div>
+    <!-- /container -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,84 @@
+.paginator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginator .button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-transition: background-color, 0.2s, cubic-bezier(.25, .8, .25, 1);
+  -moz-transition: background-color, 0.2s, cubic-bezier(.25, .8, .25, 1);
+  -o-transition: background-color, 0.2s, cubic-bezier(.25, .8, .25, 1);
+  transition: background-color, 0.2s, cubic-bezier(.25, .8, .25, 1);
+}
+
+.logo {
+  color: #00d1b2;
+}
+
+.search-bar .search-button {
+  background-color: #00d1b2;
+}
+
+.nav {
+  height: 80px;
+  -webkit-transition: height 0.3s cubic-bezier(.25, .8, .25, 1);
+  -moz-transition: height 0.3s cubic-bezier(.25, .8, .25, 1);
+  -o-transition: height 0.3s cubic-bezier(.25, .8, .25, 1);
+  transition: height 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.nav-center {
+  align-items: center;
+}
+
+.landing {
+  height: 100vh;
+}
+
+.landing .logo {
+  font-size: 200px;
+  height: 200px;
+  line-height: 200px;
+  width: 200px;
+}
+
+.landing .nav-center {
+  flex-direction: column;
+}
+
+.message {
+  margin-top: 30px;
+}
+
+.artist {
+  margin-top: 30px;
+  -webkit-transition: all, 0.3s, cubic-bezier(.25, .8, .25, 1);
+  -moz-transition: all, 0.3s, cubic-bezier(.25, .8, .25, 1);
+  -o-transition: all, 0.3s, cubic-bezier(.25, .8, .25, 1);
+  transition: all, 0.3s, cubic-bezier(.25, .8, .25, 1);
+
+}
+
+.artist:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.artist .media {
+  align-items: center;
+  font-size: 2rem;
+}
+
+.artist .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.artist .image img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
